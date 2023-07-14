@@ -100,3 +100,7 @@ app.post('/add-item', (req, res) => {
 	// 	}
 	//   });	  
 })
+
+app.post('/inventory', () => {
+	
+})
