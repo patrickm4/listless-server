@@ -10,3 +10,5 @@ inventoryRouter.post('/bulk-create-inventory-item', (req, res) => {
         res.send({err: error})
     }
 })
+
+export default inventoryRouter;
